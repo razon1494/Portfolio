@@ -1,0 +1,200 @@
+body {
+    background-color: HoneyDew;
+}
+
+.navigation-bar {
+    font-weight: bold;
+    font-size: 25px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 150px;
+}
+
+.navigation-bar a {
+    text-decoration: none;
+    padding-left: 30px;
+    color: saddlebrown;
+}
+
+.navigation-bar a:hover {
+    text-decoration: underline;
+    color: goldenrod;
+}
+
+#logo {
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+}
+
+.focus {
+    width: 700px;
+    height: 450px;
+    margin-left: 300px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.focus p {
+    color: goldenrod;
+    font-size: 22;
+}
+
+.focus h1 {
+    font-size: 60px;
+}
+
+.focus button {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: goldenrod;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+.button1 {
+    background-color: goldenrod;
+    margin-right: 20px;
+}
+
+.button2:hover {
+    cursor: pointer;
+    background-color: goldenrod;
+}
+
+.stat {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+}
+
+.project-complete {
+    width: 400px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.briefcase {
+    background-color: rgba(218, 165, 32, 0.537);
+    width: 130px;
+    height: 130px;
+    border-radius: 80%;
+    margin-top: 15px;
+}
+
+.project-complete p {
+    width: 250px;
+    height: 150px;
+    float: right;
+    font-size: 20px;
+    color: goldenrod;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.project-complete p strong {
+    color: green;
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.happy {
+    width: 400px;
+    height: 200px;
+    margin-bottom: 250px;
+    margin-left: 70px;
+    position: relative;
+}
+
+.joy {
+    background-color: rgba(218, 165, 32, 0.345);
+    width: 130px;
+    height: 130px;
+    border-radius: 80%;
+    margin-top: 25px;
+}
+
+.happy p {
+    width: 250px;
+    height: 150px;
+    float: right;
+    font-size: 20px;
+    color: goldenrod;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.happy p strong {
+    color: green;
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.cup {
+    width: 400px;
+    height: 200px;
+    position: relative;
+    float: right;
+    margin-right: 50px;
+}
+
+.coffee {
+    background-color: rgba(218, 165, 32, 0.345);
+    width: 130px;
+    height: 130px;
+    border-radius: 80%;
+    margin-top: 25px;
+}
+
+.cup p {
+    width: 250px;
+    height: 150px;
+    float: right;
+    font-size: 20px;
+    color: goldenrod;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cup strong {
+    color: green;
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.night {
+    width: 400px;
+    height: 200px;
+    position: relative;
+    float: right;
+    margin-right: 30px;
+}
+
+.sleep {
+    background-color: rgba(218, 165, 32, 0.345);
+    width: 130px;
+    height: 130px;
+    border-radius: 80%;
+    margin-top: 25px;
+}
+
+.night p {
+    width: 250px;
+    height: 150px;
+    float: right;
+    font-size: 20px;
+    color: goldenrod;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.night strong {
+    color: green;
+    font-size: 70px;
+    font-weight: bolder;
+}
