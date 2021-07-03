@@ -205,9 +205,8 @@ body {
     margin-top: 0;
     text-align: justify;
     margin-right: 0px;
-    background-color: papayawhip;
     min-height: 600px;
-    min-width: 1207px;
+    min-width: 1150px;
 }
 
 .details p {
@@ -246,7 +245,6 @@ body {
     font-size: 28px;
     margin-top: 15px;
     margin-left: 20px;
-    background-color: rgba(255, 192, 203, 0.248);
     min-height: 328px;
 }
 
