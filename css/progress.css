@@ -139,3 +139,78 @@ svg circle:nth-child(2) {
     stroke: royalblue;
     stroke-dashoffset: calc(440 - (440 * 70) / 100);
 }
+
+.heavy {
+    padding-left: 0;
+    position: relative;
+    height: 100px;
+    width: 80%;
+    text-align: center;
+    font-size: 50px;
+    color: DarkSeaGreen;
+}
+
+.head-service {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+    color: sandybrown;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px slategray;
+    text-transform: uppercase;
+}
+
+.all {
+    display: flex;
+    margin-top: 80px;
+}
+
+.bo {
+    box-shadow: 10px 10px 40px gray;
+    width: 20%;
+    height: 250px;
+    margin-left: 60px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.bo:hover {}
+
+.bo h3 {
+    color: chocolate;
+    font-size: 35px;
+}
+
+.bo p {
+    color: DimGray;
+    font-size: 20px;
+    text-align: center;
+}
+
+.webdesign {
+    border-left: 10px solid;
+    border-radius: 10px;
+    border-image: linear-gradient(#f6b73c, #4d9f0c);
+    border-image-slice: 1;
+}
+
+.webapp {
+    border-left: 10px solid;
+    border-radius: 10px;
+    border-image: linear-gradient(Chartreuse, #f6b73c);
+    border-image-slice: 1;
+}
+
+.webdev {
+    border-left: 10px solid;
+    border-radius: 10px;
+    border-image: linear-gradient( Cyan, Chartreuse);
+    border-image-slice: 1;
+}
+
+.seo {
+    border-left: 10px solid;
+    border-radius: 10px;
+    border-image: linear-gradient( Gold, Cyan);
+    border-image-slice: 1;
+}
