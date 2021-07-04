@@ -288,6 +288,8 @@ td {
     padding-top: 40px;
 }
 
+.bo:hover {}
+
 .bo h3 {
     color: chocolate;
     font-size: 35px;
