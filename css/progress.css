@@ -1,0 +1,141 @@
+.progress {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.progress .area {
+    position: relative;
+    background: linear-gradient(to bottom, Gainsboro, LightGray);
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.progress .area:hover {
+    transform: translateY(-10px);
+    element-shadow: 0 15px 35px rgba(0, 0, 0, 5);
+}
+
+.progress .area::before {
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255, 0.3);
+    pointer-events: none;
+}
+
+.cent {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.cent .number {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.cent .number h2 {
+    color: gray;
+    font-weight: 700;
+    font-size: 40px;
+    transition: 0.5s;
+}
+
+.area:hover .cent .number h2 {
+    color: darkorchid;
+    font-size: 60px;
+}
+
+.cent .number h2 span {
+    font-size: 24px;
+    color: brown;
+}
+
+.area:hover .cent .number h2 span {
+    color: darkorchid;
+}
+
+.text {
+    position: relative;
+    margin-top: 20px;
+    color: DarkSlateGray font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.area:hover .text {
+    color: darkorchid;
+    font-size: 30px;
+}
+
+svg {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    z-index: 1000;
+}
+
+svg circle {
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: black;
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform: translate(5px, 5px);
+}
+
+svg circle:nth-child(2) {
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+}
+
+#html circle:nth-child(2) {
+    stroke: chocolate;
+    stroke-dashoffset: 44;
+}
+
+#css circle:nth-child(2) {
+    stroke: lawngreen;
+    stroke-dashoffset: calc(440 - (440 * 85) / 100);
+}
+
+#js circle:nth-child(2) {
+    stroke: rgb(225, 65, 65);
+    stroke-dashoffset: calc(440 - (440 * 60) / 100);
+}
+
+#php circle:nth-child(2) {
+    stroke: olive;
+    stroke-dashoffset: calc(440 - (440 * 79) / 100);
+}
+
+#mysql circle:nth-child(2) {
+    stroke: royalblue;
+    stroke-dashoffset: calc(440 - (440 * 70) / 100);
+}
